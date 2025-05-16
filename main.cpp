@@ -28,7 +28,7 @@ String GAS_ID = "AKfycbwMTbtZt9PjBezCVVRATBHtI-47Ynu20zAeVRSOWNu3hYAiY5BzzgeDjYF
 BH1750 lightMeter;
 
 unsigned long startime, currenttime = 0; 
-unsigned long ten_min_delay = 10*1000;//10 minute delay
+unsigned long ten_min_delay = 10*60*1000;//10 minute delay
 
 struct data{
   char INT_flag;//interrupt flag for door status
